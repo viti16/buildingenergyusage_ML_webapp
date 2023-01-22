@@ -119,4 +119,4 @@ cols=st.columns(3)
 if cols[1].button('Predict EUI'):
 #     catbb.load_model(filename)
      result=catbb.predict(alldata)
-     cols[1].write("The energy usage is:",result)
+     cols[1].write(result)
